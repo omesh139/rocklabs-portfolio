@@ -1,6 +1,6 @@
 import React,{useEffect,useMemo,useState} from 'react';
 import{createRoot}from'react-dom/client';
-import{ArrowDownRight,ArrowUpRight,Github,Mail,Menu,X,Sun,Moon,Search,Copy,Check,ExternalLink,Code2,Cpu,Gamepad2,Globe,Layers,Terminal,Sparkles,Send,ChevronRight,Command,Zap,Download,Radio,Wrench,Heart,CircleDot,Filter,Clock,MapPin,MessageCircle,FileText,ShieldCheck,Palette,Workflow,ArrowRight,CheckCircle2,Instagram,Linkedin,Star,MousePointer2,Braces,Boxes,Music,BookOpen,AtSign,Clipboard,Share2,Eye,RotateCcw}from'lucide-react';
+import{ArrowDownRight,ArrowUpRight,Github,Mail,Menu,X,Sun,Moon,Search,Copy,Check,ExternalLink,Code2,Cpu,Gamepad2,Globe,Layers,Terminal,Sparkles,Send,ChevronRight,Command,Zap,Download,Radio,Wrench,Heart,CircleDot,Filter,Clock,MapPin,MessageCircle,FileText,ShieldCheck,Palette,Workflow,ArrowRight,CheckCircle2,Star,MousePointer2,Braces,Boxes,Music,BookOpen,AtSign,Clipboard,Share2,Eye,RotateCcw}from'lucide-react';
 import './styles.css';
 const projects=[
 {id:'unstable',title:'Unstable Recreation',category:'Web',year:'2026',status:'In progress',featured:true,desc:'A polished hub for a Minecraft recreation project, with world galleries, download information, and an admin-friendly workflow.',tags:['React','Vite','Tailwind'],icon:Globe,color:'lime',link:'#contact',details:'Designing a clean home for a large game-world project, with clear navigation and room for galleries, release notes and downloads.'},
