@@ -1,4 +1,4 @@
-# RockLabs Portfolio — Afterburn Edition
+# RockLabs Portfolio — Nebula v4 — Visual Edition
 
 A bold, responsive developer portfolio built with React, Vite, and Lucide icons. Styled with a near-black canvas, neon-lime accents, atmospheric grids, orbital motion, elevated project cards, and keyboard-friendly interactions.
 
@@ -42,3 +42,15 @@ The repository includes `vercel.json` with these settings. Keep your dependencie
 ## Customization
 
 Edit project entries, skills, and service descriptions in `src/main.jsx`. Visual tokens and animations live in `src/styles.css`. Metadata lives in `index.html`.
+
+## New in Nebula v4
+
+- 10 bundled, optimized WebP concept-art images (no external image hosts).
+- Image-backed project cards and detailed project modal illustrations.
+- An editorial three-image RockLabs creative showcase section.
+- Atmospheric hero artwork with interactive glow, while retaining the existing orbital component.
+- Responsive image gallery, image zoom/hover polish, and reduced-motion support.
+
+**Artwork disclosure:** Project pictures are AI-assisted illustrations for portfolio presentation. They are not claimed as authentic product screenshots. Replace each `public/images/*.webp` with real project screenshots when available.
+
+The email address in this portfolio is `hello@rocklabs.us` — update it in `src/main.jsx` if that mailbox is not active.
